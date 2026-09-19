@@ -5,7 +5,7 @@ const index = 1
 
 <template>
   <h1>Final Fantasy 15 Food Catalog</h1>
-  <Gridcard :index="index" title="Auberginenauflauf"></Gridcard>
+  <Gridcard :index="index" title="Flame Roasted Toast"></Gridcard>
 </template>
 
 <style scoped></style>

@@ -8,9 +8,15 @@ const props = defineProps<Props>()
 </script>
 <template>
   <div class="container">
-    <img />
+    <img src="/meals/Flame_Roasted_Toast.webp" />
     <span class="subtitle">{{ index }}</span>
     <h2 class="title">{{ title }}</h2>
   </div>
 </template>
-<style scoped></style>
+<style scoped>
+.container {
+  border: 1px solid lightblue;
+  display: flex;
+  flex-direction: column;
+}
+</style>
